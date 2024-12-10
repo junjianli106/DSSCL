@@ -1,5 +1,5 @@
 
-## DSSCL: Domain-Informed Self-Supervised Contrastive Learning for Pathological Image Analysis
+## DSSCL: Domain-specific Self-Supervised Contrastive Learning for Pathological Image Analysis
 
 This is a PyTorch implementation of DSSCL (Domain-specific Self-Supervised Contrastive Learning) for histopathological image analysis.
 
