@@ -42,9 +42,9 @@ model_names = sorted(name for name in models.__dict__
                      and callable(models.__dict__[name]))
 
 parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
-parser.add_argument('--data', metavar='DIR', default='/home/junjianli/data/Kather_Multi_Class/NCT-CRC-HE-100K',
+parser.add_argument('--data', metavar='DIR', default='/home/xxxx/data/Kather_Multi_Class/NCT-CRC-HE-100K',
                     help='path to dataset')
-parser.add_argument('--art_data', metavar='DIR', default='/home/junjianli/data/Kather_Multi_Class/Stain-Separation/train',
+parser.add_argument('--art_data', metavar='DIR', default='/home/xxxx/data/Kather_Multi_Class/Stain-Separation/train',
                     help='path to pos_dataset')
 parser.add_argument('-a', '--arch', metavar='ARCH', default='resnet18',
                     choices=model_names,

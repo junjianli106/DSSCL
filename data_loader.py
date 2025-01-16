@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2021/6/19 11:30 上午
-# @Author  : Haonan Wang
-# @File    : Load_Dataset.py
-# @Software: PyCharm
 import random
 import pcl.loader
 import PIL
