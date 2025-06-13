@@ -1,7 +1,7 @@
 
-## DSSCL: Domain-specific Self-Supervised Contrastive Learning for Pathological Image Analysis
+## DSSCL: Domain-specific Self-Supervised Contrastive Learning with Contrast-Aware Pair Refinement for Pathological Image Analysis
 
-This is a PyTorch implementation of DSSCL (Domain-specific Self-Supervised Contrastive Learning with Contrast-Aware Pair Refinement for Pathological Image Classification.
+This is a PyTorch implementation of DSSCL: Domain-specific Self-Supervised Contrastive Learning with Contrast-Aware Pair Refinement for Pathological Image Analysis).
 
 ### Preparation
 
@@ -28,10 +28,10 @@ python main_w_he.py --weight_orig 0.4 --num-cluster '10'
 
 Fine-tuning results on NCT-CRC-HE-100K using 0.1%, 1%, 10%, and 100% labeled data:
 
-| Metric | 0.1% Labeled | 1% Labeled | 10% Labeled |
-|--------|--------------|------------|-------------|
-| **ACC** | 88.0 ± 1.3  | 93.0 ± 0.3 | 93.6 ± 0.1  | 
-| **F1**  | 82.6 ± 1.8  | 89.4 ± 0.3 | 91.0 ± 0.2  | 
+| Metric | 0.1% Labeled | 1% Labeled | 10% Labeled | 10% Labeled |
+|--------|--------------|------------|-------------|-------------|
+| **ACC** | 88.0 ± 1.3  | 93.0 ± 0.3 | 93.6 ± 0.1  | 94.4 ± 0.1  |
+| **F1**  | 82.6 ± 1.8  | 89.4 ± 0.3 | 91.0 ± 0.2  | 92.1 ± 0.1  | 
 
 
 
